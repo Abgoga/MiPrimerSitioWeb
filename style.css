@@ -1,0 +1,66 @@
+/*Selector universal*/
+
+*{
+/*color de fondo*/
+
+    background-color: rgb(208, 255, 127);
+    
+    /*color de texto*/
+    /*color:brown;*/
+}
+
+h1{
+    color:chocolate;
+}
+h2{
+    color:rgb(200, 196, 255);
+}
+h3{
+    color:darkgreen;
+
+}
+p{
+    color:darkmagenta;
+}
+/*De clase*/
+
+.tipografia{
+
+    /*tipografia*/
+    font-family: sans-serif;
+
+    /*tamaño*/
+    font-size: larger;
+
+    /*peso*/
+    font-weight: 900;
+
+    /*Alineacion*/
+    text-align: center;
+}
+
+/* De id*/
+
+#rosa{
+    color: hotpink;
+}
+#link{
+    text-align: end;
+    font-style: oblique;
+}
+
+/*media queries*/
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+
+    
+}
+
+
+img,video{
+    /*ancho*/
+    width: 200px; 
+    /*altura*/
+    height: ; 
+}
